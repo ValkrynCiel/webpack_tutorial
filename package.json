@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ValkrynCiel/webpack_tutorial#readme",
   "devDependencies": {
+    "file-loader": "^4.0.0",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
   },
