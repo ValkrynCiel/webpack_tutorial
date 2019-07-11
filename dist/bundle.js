@@ -90,10 +90,10 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _hello_world__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _hello_world_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 
 
-helloWorld();
+Object(_hello_world_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
 
 /***/ }),
 /* 1 */
