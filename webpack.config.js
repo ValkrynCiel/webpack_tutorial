@@ -5,6 +5,7 @@
  * webpack will check rules to import different types of files -- for jpg and png we will use file-loader
  * webpack can load .js files automatically
  * publicPath tells Webpack where all generated files are located
+ * webpack processes loaders from right to left
  */
 
 const path = require('path');
@@ -29,6 +30,13 @@ module.exports = {
         test: /\.css$/,
         use: [
           'style-loader', 'css-loader'
+        ]
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          'style-loader', 'css-loader',
+          'sass-loader'
         ]
       }
     ]
